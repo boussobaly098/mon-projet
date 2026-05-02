@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serigne Modou Bousso | Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Fixation de la Barre de navigation en haut -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <div class="container">
+
+      <!-- Logo avec initiales -->
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-code-slash"></i> SMB
+      </a>
+
+      <!-- Bouton hamburger pour mobile (assure la responsivité) -->
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Liens du menu (pour le contenu du menu)-->
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <!-- Bouton dark/light mode (pour le thème) -->
+        <button id="toggle-theme" class="btn btn-outline-secondary ms-3">
+          <i class="bi bi-moon-fill"></i>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Grande bannière d'accueil (contenu de la page d'accueil) -->
+    <section class="hero d-flex align-items-center justify-content-center text-center" id="accueil">
+      <div class="container">
+
+        <!-- Ma Photo de profil -->
+        <img src="images/hero.jpeg"
+             alt="Photo de Serigne Modou Bousso"
+             class="photo-profil rounded-circle mb-4">
+
+        <!-- MON Nom complet -->
+        <h1 class="display-4 fw-bold text-white">Serigne Modou Bousso</h1>
+
+        <!-- Titre professionnel -->
+        <p class="lead text-white-50 mb-4">
+        Étudiant en Licence Informatique & Télécommunications
+        <br>Université Cheikh Ahmadou Khadim
+            • Touba, Sénégal
+</p>
+
+        <!-- Boutons d'action -->
+        <div class="d-flex gap-3 justify-content-center flex-wrap mb-5">
+          <a href="projects.html" class="btn btn-primary btn-lg">
+            <i class="bi bi-folder2-open"></i> Voir mes projets
+          </a>
+          <a href="contact.html" class="btn btn-outline-light btn-lg">
+            <i class="bi bi-envelope"></i> Me contacter
+          </a>
+        </div>
+
+        <!-- Flèche animée vers le bas -->
+        <a href="#competences" class="fleche-bas text-white-50">
+          <i class="bi bi-chevron-double-down fs-3"></i>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="py-5 bg-dark fade-in" id="competences">
+      <div class="container text-center">
+
+        <h2 class="text-white fw-bold mb-5">Mes savoir-faire</h2>
+
+        <div class="row g-4">
+
+          <!-- HTML -->
+          <div class="col-md-3">
+            <div class="carte-competence p-4 rounded">
+              <i class="bi bi-filetype-html fs-1 text-primary"></i>
+              <h5 class="text-white mt-3">HTML 5</h5>
+              <p class="text-white-50">Structure sémantique des pages web</p>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="col-md-3">
+            <div class="carte-competence p-4 rounded">
+              <i class="bi bi-filetype-css fs-1 text-info"></i>
+              <h5 class="text-white mt-3">CSS 3</h5>
+              <p class="text-white-50">Design responsive et animations</p>
+            </div>
+          </div>
+
+          <!-- Bootstrap -->
+          <div class="col-md-3">
+            <div class="carte-competence p-4 rounded">
+              <i class="bi bi-bootstrap fs-1 text-warning"></i>
+              <h5 class="text-white mt-3">Bootstrap 5</h5>
+              <p class="text-white-50">Framework CSS pour le responsive</p>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="col-md-3">
+            <div class="carte-competence p-4 rounded">
+              <i class="bi bi-filetype-js fs-1 text-success"></i>
+              <h5 class="text-white mt-3">JavaScript</h5>
+              <p class="text-white-50">Interactivité et animations</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pied de la page -->
+  <footer class="bg-black text-center py-4">
+    <p class="text-white-50 mb-0">
+      ©️ 2026 Serigne Modou Bousso — Fait avec
+      <i class="bi bi-heart-fill text-danger"></i>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js">
+
+  </script>
+
+</body>
+</html>
