@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #7382b1;
+}
+
+.conteneur {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.planning {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f8f0f0;
+}
+
+.planning th,
+.planning td {
+  border: 1px solid #d9dfe8;
+  padding: 12px;
+  text-align: center;
+}
+
+.planning thead th {
+  background: #114a9f;
+  color: #fff;
+}
+
+.planning tbody tr:nth-child(even) {
+  background: #f3f6fb;
+}
+
+.planning .tp {
+  background: #d8f5de;
+}
+
+.planning .controle {
+  background: #ffe6c7;
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emploi du temps</title>
+  <link rel="stylesheet" href="emploi du temps.css">
+</head>
+<body>
+  <div class="conteneur">
+    <h1>EMPLOI DU TEMPS</h1>
+    <div class="table-responsive">
+      <table class="planning">
+        <thead>
+          <tr>
+            <th>Horaires</th>
+            <th>Lundi</th>
+            <th>Mardi</th>
+            <th>Mercredi</th>
+            <th>Jeudi</th>
+            <th>Vendredi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8h - 10h</td>
+            <td>HTML</td>
+            <td class="tp">TP CSS</td>
+            <td>Mathématiques</td>
+            <td>JavaScript</td>
+            <td>Anglais</td>
+          </tr>
+          <tr>
+            <td>10h - 12h</td>
+            <td>CSS</td>
+            <td>Communication</td>
+            <td class="controle">Contrôle HTML</td>
+            <td class="tp">TP JavaScript</td>
+            <td>Projet</td>
+          </tr>
+          <tr>
+            <td>14h - 16h</td>
+            <td>Base de données</td>
+            <td>JavaScript</td>
+            <td class="tp">TP Git</td>
+            <td>Réseaux</td>
+            <td class="controle">Contrôle CSS</td>
+          </tr>
+          <tr>
+            <td>16h - 18h</td>
+            <td>Tutorat</td>
+            <td>Anglais</td>
+            <td>Frameworks</td>
+            <td class="tp">TP Projet</td>
+            <td>Révision</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
