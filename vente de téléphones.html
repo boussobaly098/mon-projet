@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 18px;
+  background: hsl(230, 92%, 40%);
+  color: hsl(200, 5%, 12%);
+}
+
+main {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.infos {
+  flex: 0 0 60%;
+  background: hsl(191, 59%, 85%);
+  border: 1px solid hsl(247, 67%, 50%);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.commande {
+  flex: 0 0 40%;
+  align-self: flex-start;
+  position: sticky;
+  top: 16px;
+  background: #d0c6c6;
+  border: 1px solid #dbe2ed;
+  border-radius: 10px;
+  padding: 18px;
+}
+
+.specs {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.specs th,
+.specs td {
+  border: 1px solid #d4dcea;
+  padding: 10px;
+}
+
+.specs th:first-child,
+.specs td:first-child {
+  width: 38%;
+}
+
+.specs th:last-child,
+.specs td:last-child {
+  width: 62%;
+}
+
+.accessoires {
+  list-style: none;
+  padding-left: 0;
+}
+
+.accessoires li::before {
+  content: "✓ ";
+  color: hsl(233, 73%, 38%);
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+input,
+textarea {
+  border: 1px solid hsl(252, 83%, 62%);
+  border-radius: 6px;
+  padding: 9px;
+}
+
+button {
+  margin-top: 8px;
+  border: none;
+  background: hsl(250, 78%, 36%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(240, 85%, 39%);
+}
+
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .infos,
+  .commande {
+    flex-basis: auto;
+    position: static;
+  }
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page produit</title>
+  <link rel="stylesheet" href="vente de téléphone .css">
+</head>
+<body>
+  <header>
+    <h1>Iphone 17 Pro Max</h1>
+    <p>Découvrez nos matériels électronques.</p>
+  </header>
+
+  <main>
+    <div class="layout">
+      <section class="infos">
+        <h2>Caractéristiques techniques</h2>
+        <p>Le Iphone 17 Pro Max combine performance, autonomie et design moderne.</p>
+
+        <table class="specs">
+          <thead>
+            <tr>
+              <th>Caractéristique</th>
+              <th>Valeur</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Écran</td><td>6.9" (120Hz)</td></tr>
+            <tr><td>Processeur</td><td>Puce A19 Pro</td></tr>
+            <tr><td>Mémoire</td><td>/ 12 Go</td></tr>
+            <tr><td>Batterie</td><td>40W</td></tr>
+            <tr><td>Caméra</td><td>Triple 48 Mpx</td></tr>
+          </tbody>
+        </table>
+
+        <h3>Accessoires inclus</h3>
+        <ul class="accessoires">
+          <li>Chargeur rapide 45W</li>
+          <li>Câble USB-C vers USB-C</li>
+          <li>Outil d'éjection SIM</li>
+          <li>Documentation</li>
+        </ul>
+      </section>
+
+      <aside class="commande">
+        <h2>Commander</h2>
+        <form action="#" method="post">
+          <label for="prenom">Prénom</label>
+          <input type="text" id="prenom" name="prenom" required>
+
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="adresse">Adresse</label>
+          <textarea id="adresse" name="adresse" rows="3"></textarea>
+
+          <label for="quantite">Quantité</label>
+          <input type="number" id="quantite" name="quantite" min="1" value="1">
+
+          <p>Couleur</p>
+          <label><input type="radio" name="couleur" value="noir" checked> Noir</label>
+          <label><input type="radio" name="couleur" value="bleu"> Bleu</label>
+          <label><input type="radio" name="couleur" value="argent"> Argent</label>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3"></textarea>
+
+          <button type="submit">Valider la commande</button>
+        </form>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <p>La marque des meilleurs</p>
+  </footer>
+</body>
+</html>
