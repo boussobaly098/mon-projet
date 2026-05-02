@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À propos | Serigne Modou Bousso</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Navbar : active sur À propos -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-code-slash"></i> SMB
+      </a>
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuPrincipal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button id="toggle-theme" class="btn btn-outline-secondary ms-3">
+          <i class="bi bi-moon-fill"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Titre de la page -->
+    <section class="page-header text-center fade-in">
+      <div class="container">
+        <h1 class="display-5 fw-bold text-white">À propos de moi</h1>
+        <p class="text-white-50">
+          Étudiant passionné par l'informatique et les nouvelles technologies
+        </p>
+      </div>
+    </section>
+
+    <!-- Section biographie -->
+    <section class="py-5 fade-in">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <!-- Photo + réseaux sociaux -->
+          <div class="col-md-4 text-center">
+            <img src="images/hero.jpeg"
+                 alt="Photo de Serigne Modou Bousso"
+                 class="photo-profil rounded-circle mb-4"
+                 style="width:200px; height:200px;">
+
+            <!-- Boutons réseaux sociaux -->
+            <div class="d-flex justify-content-center gap-3 mt-3">
+              <a href="https://github.com/boussobaly098"
+                 class="btn btn-outline-primary rounded-circle p-2"
+                 target="_blank">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/boussobaly482@gmail.com"
+                 class="btn btn-outline-primary rounded-circle p-2"
+                 target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:modoubousso482@gmail.com"
+                 class="btn btn-outline-primary rounded-circle p-2">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- biographie -->
+          <div class="col-md-8">
+            <h2 class="text-white fw-bold mb-3">
+              Bonjour, je suis Serigne Modou ! 👋
+            </h2>
+            <p class="text-white-50 mb-3">
+              Je suis étudiant en Licence Informatique et Télécommunications
+              à l'Université Cheikh Ahmadou Khadim de Touba. Passionné par
+              le développement web, j'aime créer des interfaces modernes,
+              élégantes et accessibles à tous.
+            </p>
+            <p class="text-white-50 mb-3">
+              Ce portfolio représente mon premier grand projet web réalisé
+             . Il m'a permis de mettre en pratique mes
+              connaissances en HTML, CSS, Bootstrap et JavaScript tout
+              en découvrant le déploiement en ligne via GitHub Pages.
+            </p>
+            <p class="text-white-50 mb-4">
+              En dehors des cours, je suis passionné par la technologie,
+              la résolution de problèmes et l'apprentissage de nouvelles
+              compétences numériques. Je suis toujours prêt à relever
+              de nouveaux défis !
+            </p>
+            <a href="Mon CV.pdf" class="btn btn-primary">
+              <i class="bi bi-download"></i> Télécharger mon CV
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section compétences -->
+    <section class="py-5 bg-dark fade-in">
+      <div class="container">
+        <h2 class="text-white text-center fw-bold mb-5">Mes Compétences</h2>
+        <div class="row g-4">
+
+          <!-- Colonne gauche -->
+          <div class="col-md-6">
+
+            <!-- HTML -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-filetype-html text-primary"></i> HTML 5
+                </span>
+                <span class="text-white-50">75%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-primary" style="width: 75%"></div>
+              </div>
+            </div>
+
+            <!-- CSS -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-filetype-css text-info"></i> CSS 3
+                </span>
+                <span class="text-white-50">70%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-info" style="width: 70%"></div>
+              </div>
+            </div>
+
+            <!-- Bootstrap -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-bootstrap text-warning"></i> Bootstrap 5
+                </span>
+                <span class="text-white-50">65%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-warning" style="width: 65%"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Colonne droite -->
+          <div class="col-md-6">
+
+            <!-- JavaScript -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-filetype-js text-warning"></i> JavaScript
+                </span>
+                <span class="text-white-50">60%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-warning" style="width: 60%"></div>
+              </div>
+            </div>
+
+            <!-- Git -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-git text-danger"></i> Git / GitHub
+                </span>
+                <span class="text-white-50">55%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-danger" style="width: 55%"></div>
+              </div>
+            </div>
+
+            <!-- Réseaux & Télécoms -->
+            <div class="mb-4">
+              <div class="d-flex justify-content-between mb-1">
+                <span class="text-white">
+                  <i class="bi bi-wifi text-success"></i> Réseaux & Télécoms
+                </span>
+                <span class="text-white-50">60%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-success" style="width: 60%"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section parcours -->
+    <section class="py-5 fade-in">
+      <div class="container">
+        <h2 class="text-white text-center fw-bold mb-5">Mon Parcours</h2>
+        <div class="row g-4">
+
+          <!-- Carte 1 : Bac -->
+          <div class="col-md-4">
+            <div class="carte-parcours p-4 rounded text-center">
+              <i class="bi bi-mortarboard fs-1 text-primary mb-3 d-block"></i>
+              <h5 class="text-white">Baccalauréat</h5>
+              <p class="text-primary mb-1">2025</p>
+              <p class="text-white-50">
+                Obtention du Baccalauréat au
+                Lycée de Mbacké, Sénégal.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 2 : Licence -->
+          <div class="col-md-4">
+            <div class="carte-parcours p-4 rounded text-center">
+              <i class="bi bi-laptop fs-1 text-info mb-3 d-block"></i>
+              <h5 class="text-white">Licence Informatique</h5>
+              <p class="text-primary mb-1">2026 - Présent</p>
+              <p class="text-white-50">
+                Licence1 en Informatique et Télécommunications.
+                Université Cheikh Ahmadou Khadim, Touba.
+              </p>
+            </div>
+          </div>
+
+          <!-- Carte 3 : Projet web -->
+          <div class="col-md-4">
+            <div class="carte-parcours p-4 rounded text-center">
+              <i class="bi bi-trophy fs-1 text-warning mb-3 d-block"></i>
+              <h5 class="text-white">Développement Web</h5>
+              <p class="text-primary mb-1">2026 - Présent</p>
+              <p class="text-white-50">
+                Création de sites web dans le cadre
+                du module Développement Front-End.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="bg-black text-center py-4">
+    <p class="text-white-50 mb-0">
+      ©️ 2026 Serigne Modou Bousso — Fait avec
+      <i class="bi bi-heart-fill text-danger"></i>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
