@@ -15,6 +15,8 @@ Le projet a été développé en utilisant exclusivement les technologies suivan
 
 ## Site en ligne
 https://boussobaly098.github.io/mon-projet/
+## GetHub
+https://github.com/boussobaly098
 
 ## Fonctionnalités
 Afin de respecter les exigences JavaScript du projet, plusieurs fonctionnalités interactives ont été intégrées : 
