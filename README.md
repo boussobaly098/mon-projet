@@ -28,8 +28,20 @@ Effet dynamique sur la barre de navigation
 Ajout d'une ombre à la navbar lors du scroll pour améliorer l'expérience utilisateur.
 
 ## Captures d'écran
-![Accueil](images/image d'accueil.jpeg)
-![Propos](images/image à propos.jpeg)
+## Test sur Odinateur
+![Accueil](images/<img width="1600" height="764" alt="image d&#39;accueil" src="https://github.com/user-attachments/assets/63029100-0fa0-45cb-b094-e031243610f8" />
+)
+## Test sur mobile
+![Accueil](<img width="499" height="1080" alt="image d&#39;accueil 2" src="https://github.com/user-attachments/assets/ba61fcd5-d988-46d4-80d3-7af8e71159ca" />
+) 
+![Projets](images/<img width="499" height="1080" alt="image projets" src="https://github.com/user-attachments/assets/0f0776c5-09f5-4d89-9de2-b259018dc11d" />
+)
+
+## Test sur tablette
+![Accueil](images/<img width="810" height="1080" alt="image accueil 3" src="https://github.com/user-attachments/assets/c15bc948-47bd-47e8-9811-f8c98e617a1f" />
+)
+![Projets](images/<img width="810" height="1080" alt="image projet 2" src="https://github.com/user-attachments/assets/dd7a4697-ad74-43c8-92bb-f8e927c1de66" />
+)
 
 ## Équipe
 - Serigne Modou Bousso
