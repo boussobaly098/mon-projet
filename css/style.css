@@ -123,22 +123,6 @@ body {
 }
 
 
-/*CARTES COMPÉTENCES*/
-.carte-competence {
-  background-color: rgba(124, 58, 237, 0.05);
-  border: 1px solid rgba(124, 58, 237, 0.2);
-  transition: all 0.3s ease;
-  cursor: default;
-  height: 100%;
-}
-
-.carte-competence:hover {
-  background-color: rgba(124, 58, 237, 0.12);
-  border-color: var(--couleur-principale);
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(124, 58, 237, 0.2);
-}
-
 /*ANIMATIONS AU SCROLL*/
 .fade-in {
   opacity: 0;
@@ -331,7 +315,6 @@ body.light-mode .bg-dark {
   background-color: #EDE9FE !important;
 }
 
-body.light-mode .carte-competence,
 body.light-mode .carte-projet,
 body.light-mode .formulaire-contact,
 body.light-mode .carte-parcours {
